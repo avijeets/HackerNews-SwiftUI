@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A183E15235D5F8A00D103F3 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A183E14235D5F8A00D103F3 /* NetworkManager.swift */; };
+		8A183E17235D60F900D103F3 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A183E16235D60F900D103F3 /* Post.swift */; };
 		8AC7151D23526893009EB550 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7151C23526893009EB550 /* AppDelegate.swift */; };
 		8AC7151F23526893009EB550 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7151E23526893009EB550 /* SceneDelegate.swift */; };
 		8AC7152123526893009EB550 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7152023526893009EB550 /* ContentView.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A183E14235D5F8A00D103F3 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		8A183E16235D60F900D103F3 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		8AC7151923526893009EB550 /* HN-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HN-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AC7151C23526893009EB550 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AC7151E23526893009EB550 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A183E13235D5F6800D103F3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8A183E14235D5F8A00D103F3 /* NetworkManager.swift */,
+				8A183E16235D60F900D103F3 /* Post.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		8AC7151023526893009EB550 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +69,7 @@
 		8AC7151B23526893009EB550 /* HN-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				8A183E13235D5F6800D103F3 /* Models */,
 				8AC7151C23526893009EB550 /* AppDelegate.swift */,
 				8AC7151E23526893009EB550 /* SceneDelegate.swift */,
 				8AC7152023526893009EB550 /* ContentView.swift */,
@@ -146,9 +160,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A183E15235D5F8A00D103F3 /* NetworkManager.swift in Sources */,
 				8AC7151D23526893009EB550 /* AppDelegate.swift in Sources */,
 				8AC7151F23526893009EB550 /* SceneDelegate.swift in Sources */,
 				8AC7152123526893009EB550 /* ContentView.swift in Sources */,
+				8A183E17235D60F900D103F3 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
